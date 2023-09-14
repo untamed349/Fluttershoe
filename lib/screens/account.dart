@@ -14,7 +14,8 @@ class _AccountState extends State<Account> {
       body: Column(
         children: [
           ListTile(
-            title:Text("Happiness"),
+            leading:Text("name"),
+            title:Text("Name"),
           )
         ],
       ),
